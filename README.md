@@ -92,11 +92,14 @@ like chars , numbers , addresses , arth & logical operators .
 
 ### Character Input and Output : 
 
-> SYNTAX :
-> c = getchar();
+```c
 
+c = getchar();
+```
 - it reads 
 
-> putchar(c)
+```c
 
+putchar(c)
+```
 - it writes  
