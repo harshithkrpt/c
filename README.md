@@ -92,4 +92,13 @@ string contains \c, where c is some character not listed above
 
 ### External Variables and Scopes :
 
--  
+- variables within the function can only be accessed with in the function.
+- And such variables are called Automatic Variables . 
+- extern statement makes variables global or other way to make to declare variables outside the function .
+- Look File longest_line_9.c file to understand more about scoping   
+- you might have seen the redundant variables declarations in above file and common practice is to declare external varibles at top of the file and omit the reinitialization of variables in files.
+- To Share variables from one file to other 'extern' becomes handy.
+- Usually we declare external variables in a seperate files we call then as headers which can be included by #include .
+- .h is conventional header name.
+
+
