@@ -246,3 +246,47 @@ void squeeze(char s[],int c)
 - 6 bit manipulations.
 - can only be applied to char , short , int , long (signed or unsigned).
 - & | ^ << >> ~(one's complement). 
+
+
+### Assignment operators and Expressions :
+
+- code 
+
+```c
+i = i + 2; 
+i += 2; 
+/* above 2 are equlvalent */
+```
+
+- expr1 op= expr2
+- op can be + - * / % << >> & ^ |
+
+```c
+x * = y + 1; 
+x = x * (y + 1);
+```
+
+### Conditional Expressions  :
+
+- expr ? expr2 : expr3
+- precedence of ? : is low just above = `assignment`
+
+### Precedence and Order of Evalution : 
+
+- () [] -> .  left to right
+- ! ~ ++ -- + - * & (type) sizeof right to left
+- * / % left to right
+- + - left to right
+- << >> left to right
+- < <= > >= left to right
+- == != left to right
+- & left to right
+- ^ left to right
+- | left to right
+- && left to right
+- || left to right
+- ?: right to left
+- += -= *= /= %= &= ^= |= <<= >>= right to left
+- , left to right
+
+
